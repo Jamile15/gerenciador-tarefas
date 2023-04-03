@@ -62,3 +62,8 @@ link para obter o plugin : https://www.npmjs.com/package/typescript-plugin-css-m
 com o plugin siga para o documento tsconfig.json e cole no "compilerOptions"
 
 ao criar o documento para incluir o css lembre de mor nome.modules.scss
+
+
+
+### instalando pacote icos do react 
+yarn add react-icons

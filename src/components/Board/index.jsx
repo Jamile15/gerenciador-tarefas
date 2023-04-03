@@ -1,7 +1,14 @@
-import style from './Boart.modules.scss'
+import style from './Board.modules.scss';
+import List from '../List';
 
-export default function () {
-    return(
+export default function Board () {
+    return (
+        <>
+            <List />
+            <List />
+            <List />
+            <List />
+        </>
 
     );
 }

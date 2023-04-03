@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	font: 14px;
+	padding: 0;
 }
 ol, ul {
 	list-style: none;
@@ -78,7 +79,6 @@ body {
 	background-color: #4C4C4C;
 	height: 100%;
 	width: 100%;
-	padding: 16px;
 	box-sizing: border-box;
 }
 
@@ -86,18 +86,6 @@ body {
 	width: 100%;
 }
 
-::-webkit-scrollbar {
-	width: 8px;
-}
-
-::-webkit-scrollbar-track {
-	background: unset;
-}
-
-::-webkit-scrollbar-thumb {
-	border-radius: 4px;
-	background: #888;
-}
 
 ::-webkit-scrollbar-thumb:hover {
 	background: #555;
