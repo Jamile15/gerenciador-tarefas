@@ -44,3 +44,21 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+
+ ## estilizando com Sanss
+ Primeiramente, instalaremos o Sass, que é o pré-processador CSS que iremos utilizar no curso. No próprio site do NPM acessível neste link, encontraremos a parte "Usage", em que diz que podemos instalar com npm install --save-dev sass apenas.
+
+
+
+###Usando css modules
+
+Para instalar use: install -D typescript-plugin-css-modules
+
+link para obter o plugin : https://www.npmjs.com/package/typescript-plugin-css-modules
+
+
+com o plugin siga para o documento tsconfig.json e cole no "compilerOptions"
+
+ao criar o documento para incluir o css lembre de mor nome.modules.scss
