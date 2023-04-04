@@ -52,9 +52,9 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 
 
-###Usando css modules
+## Usando css modules
 
-Para instalar use: install -D typescript-plugin-css-modules
+Para instalar use: npm install -D typescript-plugin-css-modules
 
 link para obter o plugin : https://www.npmjs.com/package/typescript-plugin-css-modules
 

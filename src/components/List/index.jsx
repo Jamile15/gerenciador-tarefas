@@ -1,15 +1,18 @@
-import style from './List.modules.scss';
+import style from './List.module.scss';
 import {MdAdd} from 'react-icons/md';
 import Card from '../Card';
 
-export default function List () {
+export default function List ({data}) {
     return (
         <>
-        <header className={style.headerColun}>
-            <h2>Tarefas</h2>
+        <section className= {style.lista}>
+        <header className= {style.headerColun}>
+            <h2>{data.title}</h2>
+           {data.creatable && (
             <button type='button'>
-                <MdAdd size={24} color='#fff' />
+                <MdAdd size={24} color='#fff'/>
             </button>
+           )}
 
         </header>
         <ul>
@@ -17,7 +20,12 @@ export default function List () {
             <Card />
             <Card />
             <Card />
+            <Card />
+
         </ul>
+        </section>
+        
+        
         </>
 );
 }
