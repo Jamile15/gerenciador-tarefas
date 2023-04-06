@@ -28,6 +28,7 @@ export function loadLists() {
             labels: ['#54e1f7'],
             user: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/profile.png'
           },
+          
           {
             id: 5,
             content: 'Gravar testes e deploy ReactJS',
